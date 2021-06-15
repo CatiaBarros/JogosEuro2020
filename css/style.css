@@ -15,8 +15,8 @@
   table td::before {
     content: attr(label);
     font-weight: bold;
-    width: 120px;
-    min-width: 120px;
+    width: 90px;
+    min-width: 90px;
   }
 }
 :root {
