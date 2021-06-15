@@ -4,6 +4,21 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ @media screen and (max-width: 600px) {
+  table thead {
+    display: none;
+  }
+  table td {
+    display: flex;
+  }
+  
+  table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
